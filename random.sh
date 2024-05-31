@@ -1,7 +1,11 @@
 #!/bin/bash
 
-echo "hi mom"
+echo "hi vrn"
 
-sleep 2
+sleep 1
 
-echo "hi again"
+echo "how are you"
+
+sleep 1
+
+echo "i'm also fine"
