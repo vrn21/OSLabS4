@@ -1,10 +1,9 @@
 #!/bin/bash
 
+name = $whoami
 echo "gm gm "
 
 echo "whats your name"
-
-read name
 
 echo "hey $name i hope you are doing well!"
 
