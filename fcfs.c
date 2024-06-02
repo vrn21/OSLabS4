@@ -10,10 +10,6 @@ struct Process{
   int tat;
 };
 
-int isCompleted(struct Process list[5], int x){
-
-}
-
 void fcfs(struct Process list[5]){
   for (int i = 0;i<4; i++){
     for (int j = 0; j<4-i; j++){
@@ -67,6 +63,8 @@ void sjfs(struct Process list[5]){
 
   int counter = 0;
   int currentT = 0;
+  int completed[5];
+  completedN=0
   while (counter!=5){
     for(int j = 0; j>5; j++){
       if(currentT<list[j].at){
